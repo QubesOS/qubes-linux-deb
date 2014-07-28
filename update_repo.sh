@@ -6,8 +6,12 @@ sign_release_file()
 {
     if [ -n "$DEBIAN_SIGN_KEY" ]; then
         rm -f $1/Release.gpg
+        rm -f $1/InRelease
         gpg -abs -u "$DEBIAN_SIGN_KEY" \
             -o $1/Release.gpg \
+            $1/Release
+        gpg -a -s --clearsign -u "$DEBIAN_SIGN_KEY" \
+            -o $1/InRelease \
             $1/Release
     else
         echo "You need to set DEBIAN_SIGN_KEY variable" >&2
