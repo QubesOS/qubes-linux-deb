@@ -1,0 +1,45 @@
+Origin: Qubes Debian
+Label: Qubes Debian
+Codename: wheezy
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3 domU support tools for debian wheezy
+
+Origin: Qubes Debian
+Label: Qubes Debian (updates candidates)
+Codename: wheezy-testing
+AlsoAcceptFor: wheezy
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3 domU support tools for debian wheezy
+
+Origin: Qubes Debian
+Label: Qubes Debian (experimental)
+Codename: wheezy-unstable
+AlsoAcceptFor: wheezy
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3 domU support tools for debian wheezy
+
+Origin: Qubes Debian
+Label: Qubes Debian
+Codename: jessie
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3 domU support tools for debian jessie
+
+Origin: Qubes Debian
+Label: Qubes Debian (updates candidates)
+Codename: jessie-testing
+AlsoAcceptFor: jessie
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3 domU support tools for debian jessie
+
+Origin: Qubes Debian
+Label: Qubes Debian (experimental)
+Codename: jessie-unstable
+AlsoAcceptFor: jessie
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3 domU support tools for debian jessie
