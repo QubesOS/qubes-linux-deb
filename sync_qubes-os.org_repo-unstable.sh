@@ -5,7 +5,7 @@ pushd `dirname $0`
 #DRY="-n"
 USERNAME=marmarek
 HOST=yum.qubes-os.org
-RELS_TO_SYNC="`readlink current-release|tr -d /`"
+RELS_TO_SYNC="r2 r3"
 REPOS_TO_SYNC="jessie-unstable wheezy-unstable"
 
 for rel in $RELS_TO_SYNC; do

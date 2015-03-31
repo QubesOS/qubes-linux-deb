@@ -1,6 +1,11 @@
 #!/bin/sh
 
-REPOS_TO_UPDATE="current-release/vm/dists/*-testing"
+if [ -z "$1" ]; then
+    echo "Usage: $0 <qubes-release>" >&2
+    exit 1
+fi
+
+REPOS_TO_UPDATE="$1/vm/dists/*-testing"
 
 . `dirname $0`/update_repo.sh
 
