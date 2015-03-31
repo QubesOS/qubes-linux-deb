@@ -2,17 +2,19 @@
 
 [ -z "$REPOS_TO_UPDATE" ] && REPOS_TO_UPDATE="current-release/vm/dists/wheezy current-release/vm/dists/wheezy-testing current-release/vm/dists/jessie current-release/vm/dists/jessie-testing"
 
+if [ -z "$GNUPG" ]; then
+    GNUPG=gpg
+fi
+
 sign_release_file()
 {
     if [ -n "$DEBIAN_SIGN_KEY" ]; then
         rm -f $1/Release.gpg
         rm -f $1/InRelease
-        gpg -abs -u "$DEBIAN_SIGN_KEY" \
-            -o $1/Release.gpg \
-            $1/Release
-        gpg -a -s --clearsign -u "$DEBIAN_SIGN_KEY" \
-            -o $1/InRelease \
-            $1/Release
+        $GNUPG -abs -u "$DEBIAN_SIGN_KEY" \
+            $1/Release > $1/Release.gpg
+        $GNUPG -a -s --clearsign -u "$DEBIAN_SIGN_KEY" \
+            $1/Release > $1/InRelease
     else
         echo "You need to set DEBIAN_SIGN_KEY variable" >&2
     fi
