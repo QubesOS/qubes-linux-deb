@@ -12,9 +12,9 @@ sign_release_file()
         rm -f $1/Release.gpg
         rm -f $1/InRelease
         $GNUPG -abs -u "$DEBIAN_SIGN_KEY" \
-            $1/Release > $1/Release.gpg
+            < $1/Release > $1/Release.gpg
         $GNUPG -a -s --clearsign -u "$DEBIAN_SIGN_KEY" \
-            $1/Release > $1/InRelease
+            < $1/Release > $1/InRelease
     else
         echo "You need to set DEBIAN_SIGN_KEY variable" >&2
     fi
