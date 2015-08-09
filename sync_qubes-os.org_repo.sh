@@ -5,8 +5,8 @@ pushd `dirname $0`
 #DRY="-n"
 USERNAME=marmarek
 HOST=deb.qubes-os.org
-HOST_BASEDIR=/pub/qubes/repo/yum
-RELS_TO_SYNC="r2 r3 r3.0"
+HOST_BASEDIR=/pub/qubes/repo/deb
+RELS_TO_SYNC="r2 r3.0"
 if [ -n "$1" ]; then
     RELS_TO_SYNC="$1"
 fi
