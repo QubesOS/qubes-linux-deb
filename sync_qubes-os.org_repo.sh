@@ -10,7 +10,7 @@ RELS_TO_SYNC="r2 r3.0"
 if [ -n "$1" ]; then
     RELS_TO_SYNC="$1"
 fi
-REPOS_TO_SYNC="jessie jessie-testing wheezy wheezy-testing"
+REPOS_TO_SYNC="`for r in $RELS_TO_SYNC; do ls $r/vm/dists | grep -v unstable; done`"
 
 for rel in $RELS_TO_SYNC; do
     rsync $DRY --partial --progress --hard-links -air $rel/vm/pool \
