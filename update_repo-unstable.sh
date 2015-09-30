@@ -10,6 +10,6 @@ REPOS_TO_UPDATE="$1/vm/dists/*-unstable"
 . `dirname $0`/update_repo.sh
 
 if [ "$AUTOMATIC_UPLOAD" = 1 ]; then
-    `dirname $0`/sync_qubes-os.org_repo-unstable.sh
+    `dirname $0`/sync_qubes-os.org_repo-unstable.sh "$1"
 fi
 
