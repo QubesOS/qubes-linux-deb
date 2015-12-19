@@ -14,6 +14,14 @@ Components: main
 Description: Apt repository with qubes R3.1 domU support tools for debian wheezy
 
 Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: wheezy-securitytesting
+AlsoAcceptFor: wheezy
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3.1 domU support tools for debian wheezy
+
+Origin: Qubes Debian
 Label: Qubes Debian (experimental)
 Codename: wheezy-unstable
 AlsoAcceptFor: wheezy
@@ -37,6 +45,14 @@ Components: main
 Description: Apt repository with qubes R3.1 domU support tools for debian jessie
 
 Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: jessie-securitytesting
+AlsoAcceptFor: jessie
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3.1 domU support tools for debian jessie
+
+Origin: Qubes Debian
 Label: Qubes Debian (experimental)
 Codename: jessie-unstable
 AlsoAcceptFor: jessie
@@ -54,6 +70,14 @@ Description: Apt repository with qubes R3.1 domU support tools for debian stretc
 Origin: Qubes Debian
 Label: Qubes Debian (updates candidates)
 Codename: stretch-testing
+AlsoAcceptFor: stretch
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R3.1 domU support tools for debian stretch
+
+Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: stretch-securitytesting
 AlsoAcceptFor: stretch
 Architectures: amd64 source
 Components: main

@@ -11,7 +11,15 @@ Codename: wheezy-testing
 AlsoAcceptFor: wheezy
 Architectures: amd64 source
 Components: main
-Description: Apt repository with qubes domU support tools for debian wheezy
+Description: Apt repository with qubes R2 domU support tools for debian wheezy
+
+Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: wheezy-securitytesting
+AlsoAcceptFor: wheezy
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R2 domU support tools for debian wheezy
 
 Origin: Qubes Debian
 Label: Qubes Debian (experimental)
@@ -34,7 +42,15 @@ Codename: jessie-testing
 AlsoAcceptFor: jessie
 Architectures: amd64 source
 Components: main
-Description: Apt repository with qubes domU support tools for debian jessie
+Description: Apt repository with qubes R2 domU support tools for debian jessie
+
+Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: jessie-securitytesting
+AlsoAcceptFor: jessie
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R2 domU support tools for debian jessie
 
 Origin: Qubes Debian
 Label: Qubes Debian (experimental)
