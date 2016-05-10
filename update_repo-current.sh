@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-REPOS_TO_UPDATE="$1/vm/dists/jessie $1/vm/dists/wheezy"
+REPOS_TO_UPDATE="`ls -d1 $1/vm/dists/*|grep -v 'testing\|unstable'`"
 
 . `dirname $0`/update_repo.sh
 
