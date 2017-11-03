@@ -3,8 +3,8 @@
 pushd `dirname $0`
 
 #DRY="-n"
-HOST=deb.qubes-os.org
-HOST_BASEDIR=/pub/qubes/repo/deb
+[ "x$HOST" == "x" ] && HOST=deb.qubes-os.org
+[ "x$HOST_BASEDIR" == "x" ] && HOST_BASEDIR=/pub/qubes/repo/deb
 RELS_TO_SYNC="r2 r3.0"
 if [ -n "$1" ]; then
     RELS_TO_SYNC="$1"
