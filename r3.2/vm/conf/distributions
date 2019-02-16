@@ -4,6 +4,7 @@ Codename: wheezy
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian wheezy
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (updates candidates)
@@ -12,6 +13,7 @@ AlsoAcceptFor: wheezy
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian wheezy
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (security updates candidates)
@@ -20,6 +22,7 @@ AlsoAcceptFor: wheezy
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian wheezy
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (experimental)
@@ -28,6 +31,7 @@ AlsoAcceptFor: wheezy
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian wheezy
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian
@@ -35,6 +39,7 @@ Codename: jessie
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian jessie
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (updates candidates)
@@ -43,6 +48,7 @@ AlsoAcceptFor: jessie
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian jessie
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (security updates candidates)
@@ -51,6 +57,7 @@ AlsoAcceptFor: jessie
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian jessie
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (experimental)
@@ -59,6 +66,7 @@ AlsoAcceptFor: jessie
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian jessie
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian
@@ -66,6 +74,7 @@ Codename: stretch
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian stretch
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (updates candidates)
@@ -74,6 +83,7 @@ AlsoAcceptFor: stretch
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian stretch
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (security updates candidates)
@@ -82,6 +92,7 @@ AlsoAcceptFor: stretch
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian stretch
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (experimental)
@@ -90,6 +101,7 @@ AlsoAcceptFor: stretch
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian stretch
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian
@@ -97,6 +109,7 @@ Codename: buster
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian buster
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (updates candidates)
@@ -105,6 +118,7 @@ AlsoAcceptFor: buster
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian buster
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (security updates candidates)
@@ -113,6 +127,7 @@ AlsoAcceptFor: buster
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian buster
+Tracking: all includebuildinfos
 
 Origin: Qubes Debian
 Label: Qubes Debian (experimental)
@@ -121,3 +136,4 @@ AlsoAcceptFor: buster
 Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R3.2 domU support tools for debian buster
+Tracking: all includebuildinfos
