@@ -1,0 +1,69 @@
+Origin: Qubes Debian
+Label: Qubes Debian
+Codename: stretch
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian stretch
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (updates candidates)
+Codename: stretch-testing
+AlsoAcceptFor: stretch
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian stretch
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: stretch-securitytesting
+AlsoAcceptFor: stretch
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian stretch
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (experimental)
+Codename: stretch-unstable
+AlsoAcceptFor: stretch
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian stretch
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian
+Codename: buster
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian buster
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (updates candidates)
+Codename: buster-testing
+AlsoAcceptFor: buster
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian buster
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: buster-securitytesting
+AlsoAcceptFor: buster
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian buster
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (experimental)
+Codename: buster-unstable
+AlsoAcceptFor: buster
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian buster
+Tracking: all includebuildinfos

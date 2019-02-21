@@ -1,0 +1,9 @@
+Release
+Release.gz
+Release.gpg
+Packages
+Packages.gz
+Sources
+Sources.gz
+dists/
+pool/
