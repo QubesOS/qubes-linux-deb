@@ -102,3 +102,38 @@ Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R4.0 domU support tools for debian buster
 Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian
+Codename: bullseye
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian bullseye
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (updates candidates)
+Codename: bullseye-testing
+AlsoAcceptFor: bullseye
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian bullseye
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: bullseye-securitytesting
+AlsoAcceptFor: bullseye
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian bullseye
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (experimental)
+Codename: bullseye-unstable
+AlsoAcceptFor: bullseye
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.0 domU support tools for debian bullseye
+Tracking: all includebuildinfos
