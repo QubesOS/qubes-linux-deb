@@ -137,3 +137,38 @@ Architectures: amd64 source
 Components: main
 Description: Apt repository with qubes R4.1 domU support tools for debian bullseye
 Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian
+Codename: bookworm
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.1 domU support tools for debian bookworm
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (updates candidates)
+Codename: bookworm-testing
+AlsoAcceptFor: bookworm
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.1 domU support tools for debian bookworm
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (security updates candidates)
+Codename: bookworm-securitytesting
+AlsoAcceptFor: bookworm
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.1 domU support tools for debian bookworm
+Tracking: all includebuildinfos
+
+Origin: Qubes Debian
+Label: Qubes Debian (experimental)
+Codename: bookworm-unstable
+AlsoAcceptFor: bookworm
+Architectures: amd64 source
+Components: main
+Description: Apt repository with qubes R4.1 domU support tools for debian bookworm
+Tracking: all includebuildinfos
